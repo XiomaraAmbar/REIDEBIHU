@@ -1,0 +1,127 @@
+body {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      background-size: cover;
+      font-family: 'Outfit';
+      font-size: 15px;
+      font-weight: 500;
+      color: black;
+    }
+
+    h1, p {
+      margin: 1em auto;
+      text-align: center;
+    }
+
+    fieldset {
+      border-radius: 40px;
+      padding: 2rem 3rem;
+      background: white;
+      opacity: 0.9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+      border: none;
+    }
+
+    form {
+      width: 60vw;
+      max-width: 600px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+      border-radius: 50px;
+      box-sizing: border-box;
+    }
+
+    input, textarea, select {
+      margin: 10px 0 0 0;
+      font-family: 'Inter';
+      font-size: 15px;
+      font-weight: 500;
+      color: black;
+      border: 1px solid #363636;
+      border-radius: 30px;
+      background-color: #c5c5c5;
+    }
+
+    input, textarea {
+      border-radius: 30px;
+    }
+
+    input[type="checkbox"] {
+      width: 30px;
+      height: 30px;
+    }
+
+    input[type="radio"] {
+      border: 0px;
+      width: 6%;
+      height: 1.2em;
+    }
+
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    input[type="submit"], input[type="reset"] {
+      width: 48%;
+      height: 2.5em;
+      font-size: 1rem;
+      border-radius: 30px;
+      background-color: #c5c5c5;
+      border-color: #c5c5c5;
+      min-width: 80px;
+      font-weight: bold;
+      color: black;
+      font-family: 'Outfit';
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: black;
+      border-color: black;
+      color: white;
+    }
+
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+
+    textarea {
+      font-family: 'Inter';
+      border-radius: 10px;
+    }
+
+    .justified {
+      text-align: justify;
+    }
+
+    .small-input-field {
+      width: 100%; /* Igualar el ancho del input de nombre al de los otros inputs */
+      border-radius: 30px;
+      padding: 0.5em;
+    }
+
+    /* Específico para el input de nombre */
+    .input-nombre {
+      width: 97%; /* Ajusta este valor para reducir el ancho */
+    }
+
+    .input-cintura {
+      width: 45%;
+      border-radius: 30px;
+      padding: 0.5em;
+    }
